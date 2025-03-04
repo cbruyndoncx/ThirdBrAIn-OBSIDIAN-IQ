@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/selimrbd/py-obsidianmd.git
+	branch = main
+	commit = 956205bbddce1172633d1803df4296fdcf48c200
+	parent = a05ae04328f828e984fd6e76023b67031882ffec
+	method = merge
+	cmdver = 0.4.9
