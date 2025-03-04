@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/polyipseity/obsidian-modules.git
+	branch = main
+	commit = 325aed187aecf466088a0424584e50082b1933a4
+	parent = f4d3f7371f3b5d194b46458bd2118ec32fc70013
+	method = merge
+	cmdver = 0.4.9
