@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/nickrallison/obsidian-python-scripter.git
+	branch = master
+	commit = 6255f75b06122a80d9f1fc0dd77ee877b09f7020
+	parent = 9ada8e3c98e086670edd2b3247817e005650d07a
+	method = merge
+	cmdver = 0.4.9
