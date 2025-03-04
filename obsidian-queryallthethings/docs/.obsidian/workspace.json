@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "5620763eb0f3f2ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "9286cff9d14b77eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60c58a9e7d5033ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "first-query.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first-query"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfc1ba5b4a167713",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91601b3dd7dca7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c32f3fc76d05867",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "674bd898882b9510",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d5b4011eee17edcd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 468.5
+  },
+  "right": {
+    "id": "a814a0fd662569a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "48044a36ecfe154c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84199bee73582c2d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "examples-tutorials/csv-loader.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for csv-loader"
+            }
+          },
+          {
+            "id": "666fe99d9a90ce92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "examples-tutorials/csv-loader.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from csv-loader"
+            }
+          },
+          {
+            "id": "fef0cc591a5e354f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b896b3bfdcb10771",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "examples-tutorials/csv-loader.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of csv-loader"
+            }
+          },
+          {
+            "id": "8cdbfe174e0c8e36",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "qatt:Refresh QATT Tables": false,
+      "qatt:Refresh Views": false,
+      "qatt:Log Metrics": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "cmdr:Shell commands: Execute: Build QATT Documentation with snippets": false,
+      "cmdr:Shell commands: Execute: Install Project Packages": false,
+      "cmdr:Shell commands: Execute: Build and install plugin": false
+    }
+  },
+  "active": "60c58a9e7d5033ee",
+  "lastOpenFiles": [
+    "index.md",
+    "installation.md",
+    "markdown-examples.md",
+    "output-generation.md",
+    "api-examples.md",
+    "about.md",
+    "examples-tutorials/csv-loader-web.md",
+    "examples-tutorials/csv-loader.md",
+    "verfication/tables.md",
+    "examples-tutorials/example.csv",
+    "examples-tutorials/listing-recently-updated-files.md",
+    "examples-tutorials/generated-top-ten-notes.md",
+    "verfication/simple-queries.md",
+    "verfication/handlebars.md",
+    "verfication/readme.md",
+    "templates/index.md",
+    "templates/hb-helpers/taskcheckboxwithappend.md",
+    "settings.md",
+    "verfication",
+    "first-query.md",
+    "codeblock.md",
+    "data-tables/qatt-referencecalendar.md",
+    "data-tables/obsidian-markdown-tasks.md",
+    "data-tables/obsidian-markdown-lists.md",
+    "data-tables/index.md",
+    "data-tables/dataview-tasks.md",
+    "data-tables/dataview-pages.md",
+    "data-tables/dataview-lists.md",
+    "_site/templates/hb-helpers/taskcheckboxwithappend.html",
+    "_site/examples-tutorials/handlebars/taskcheckboxwithappend.html",
+    "_site/templates/hb-helpers/taskcheckbox.html",
+    "_site/examples-tutorials/handlebars/taskcheckbox.html",
+    "_site/templates/hb-helpers/htmltasklist.html",
+    "_site/examples-tutorials/handlebars/htmltasklist.html",
+    "_site/templates/hb-helpers/flexibletaskcheckbox.html",
+    "_site/examples-tutorials/handlebars/flexibletaskcheckbox.html",
+    "_site/assets/images/small-image.jpg",
+    "_site/assets/images/large-image.jpg"
+  ]
+}

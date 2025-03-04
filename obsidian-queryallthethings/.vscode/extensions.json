@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "davidanson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "pkief.material-icon-theme",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "ms-vscode.powershell",
+    "streetsidesoftware.code-spell-checker",
+    "henryhediff.obsidian-code",
+    "brpaz.vscode-obsidianmd",
+    "nhoizey.gremlins",
+    "dotup.dotup-vscode-interface-generator",
+    "oouo-diogo-perdigao.docthis",
+    "stkb.rewrap",
+    "stackbreak.comment-divider",
+    "samverschueren.linter-xo",
+    "yzhang.markdown-all-in-one",
+    "github.vscode-github-actions",
+    "vivaxy.vscode-conventional-commits",
+    "hbenl.vscode-test-explorer",
+    "orta.vscode-jest"
+  ]
+}

@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/sytone/obsidian-queryallthethings.git
+	branch = main
+	commit = 32aebb101b0f78a91d01ecb6681394cf7cfea558
+	parent = 55d9a9a27f403f404fe390c16a85419173aa51dd
+	method = merge
+	cmdver = 0.4.9

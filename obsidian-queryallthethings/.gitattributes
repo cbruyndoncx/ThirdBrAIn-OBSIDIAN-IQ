@@ -1,0 +1,16 @@
+* text=auto
+
+*.ps1 text eol=crlf
+
+*.sh text eol=lf
+
+*.config    text
+*.json      text
+*.xml       text
+
+*.bmp binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.pdf binary
+*.png binary

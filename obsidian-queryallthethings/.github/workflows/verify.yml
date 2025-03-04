@@ -1,0 +1,42 @@
+name: Verify Commit
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 9
+
+      - name: Install modules
+        run: pnpm install
+
+      - name: Run build
+        run: pnpm run build
+
+      - name: Run TypeScript compiler ESLint
+        run: pnpm run lint
+
+      - name: Run mocha
+        run: pnpm run test
+
+      - name: Archive verified build
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-verified
+          path: |
+            ./dist/main.js
+            ./dist/manifest.json
+            ./dist/styles.css

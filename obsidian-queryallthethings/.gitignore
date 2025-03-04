@@ -1,0 +1,33 @@
+# npm
+node_modules
+
+# build
+*.js.map
+.log
+
+# obsidian
+/dist/main.js
+/dist/data.json
+/dist/manifest.json
+# If the folder is symlinked make sure this is not checked in.
+/dist/.hotreload
+
+# osx
+.DS_Store
+
+# Store the info about processed files in order to only operate on the changed ones.
+.eslintcache
+
+docs/_site
+coverage
+.nyc_output
+
+src/**/*.js
+ts-jest.log
+.github/actions/obsidian-vault-to-jekyll-markdown/__pycache__/**/*
+.jekyll-cache
+docs/.vitepress/cache
+docs/.vitepress/dist
+src/UI/alaSqlFunctions.json
+src/UI/communityQueries.json
+src/UI/handlebarsHelpers.json

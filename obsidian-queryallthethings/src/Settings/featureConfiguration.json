@@ -1,0 +1,10 @@
+[
+  {
+    "index": 0,
+    "internalName": "ENABLE_TEXTAREA_SETTING",
+    "displayName": "Enable Textarea Setting",
+    "description": "Description.",
+    "enabledByDefault": false,
+    "stable": false
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "material-icon-theme.folders.theme": "specific",
+  "cSpell.words": [
+    "alasql",
+    "alwaysappend",
+    "alwaysprepend",
+    "charindex",
+    "collab",
+    "collapser",
+    "columnid",
+    "DATETIME",
+    "devcontainers",
+    "embedcache",
+    "endraw",
+    "frontmattercache",
+    "gnio",
+    "golkca",
+    "headingcache",
+    "lezer",
+    "linkcache",
+    "listcache",
+    "listitem",
+    "luxon",
+    "mapname",
+    "mdast",
+    "micromark",
+    "nocount",
+    "outfile",
+    "pagedata",
+    "papaparse",
+    "parsewikilinks",
+    "Qatt",
+    "Recordset",
+    "sectioncache",
+    "Sytone",
+    "taskcheckbox",
+    "useid"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "conventionalCommits.scopes": [
+    "logging",
+    "render",
+    "query",
+    "docs"
+  ],
+  "markdownlint.config": {
+    "MD007": {
+      "indent": 2
+    },
+    "single-trailing-newline": false
+  }
+}
