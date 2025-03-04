@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/J-E-J-S/autograph-obsidian.git
+	branch = main
+	commit = d2d6cfbff608dce2b91985c365fcd15a398b2431
+	parent = 4b3feb9af8ba0eb12cdb2f3347207a06cda67518
+	method = merge
+	cmdver = 0.4.9
