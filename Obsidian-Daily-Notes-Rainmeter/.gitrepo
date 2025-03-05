@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/btderr02/Obsidian-Daily-Notes-Rainmeter.git
+	branch = main
+	commit = f57df9396b12616b4d127a85ee2a60fd3b509b9e
+	parent = 55d0c1f5129f491c22b96adb0e19dc7c10b7d905
+	method = merge
+	cmdver = 0.4.9
