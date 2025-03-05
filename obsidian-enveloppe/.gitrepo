@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/Enveloppe/obsidian-enveloppe.git
+	branch = master
+	commit = 757a277688ebef2db5e15f349ad00e57b7cce644
+	parent = 2c28fa4cd2a6aa91810656cd928c9333b3f5a660
+	method = merge
+	cmdver = 0.4.9

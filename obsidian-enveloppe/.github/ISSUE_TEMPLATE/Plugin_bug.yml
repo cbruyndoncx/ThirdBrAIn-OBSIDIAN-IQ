@@ -1,0 +1,160 @@
+name: "Bug report"
+description: Fill a bug report for the plugin
+title: "[Bug]: "
+type: "bug"
+assignees:
+  - mara-li
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+
+        ## Common error codes
+        Before you submit, you can check the code below if the issue is relative to your repository :
+          - **404**: The API of GitHub doesn't found your repository or the branch you linked. Please re-check and validate your settings.
+          - **301**: The repository was moved.
+          - **403**: Action forbidden.
+          - **409** (during merge): There is a merge conflict. You need to use the GitHub interface to solve it. It happens a lot when you « spam » the action.
+
+        ## Try to send an file example
+        Please, try to send the file below to your repository before to fill the form. If it doesn't work, please fill the form. If it works, please check your settings and try to find the difference between the file below and your file.
+
+        ```markdown
+        ---
+        title: "Test"
+        share: true
+        ---
+        # Test
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        ```
+
+        ## In case your repository exploded
+        If you fail, you can revert the merging branch using GitHub : [Here is a tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/reverting-a-pull-request)
+
+        If you can't revert, or if the revert doesn't work, you need to manually do it. First, check the PR number that explode your repo. You can get it using the Pull Requests menu, or checking the folder that have been edited by this PR
+
+        After, you need to create a branch :
+        1. In GitHub, click on Commit :
+          ![image](https://user-images.githubusercontent.com/30244939/210760305-43b9862f-91ed-4b33-87c3-abeb03ddec79.png)
+        2. You will get a list of commit. Search for the commit with the name `[Publisher] Merging #{PR number - 1}` for example, `#625` if it's the `#626` PR.
+        3. Click on `View commit details` :
+          ![image](https://user-images.githubusercontent.com/30244939/210760328-871a6601-88a0-4574-b757-2eb87ab6d258.png)
+        4. Click on the browse file button
+        5. Click on the commit number and type the branch name, for example, revert :
+          ![image](https://user-images.githubusercontent.com/30244939/210760359-536727b1-e701-4226-99ca-5cf812b16487.png)![image](https://user-images.githubusercontent.com/30244939/210760384-08810813-100a-49ee-a68f-2a6a5f9615b9.png)
+        6. Now, you need to open : A local terminal console (if you have git installed) or a codespace (if you have any) for this repository. Don't forget to `git pull` if you have already cloned the repository.
+        7. You need to be on your main branch, so first : `git checkout main` ; After, you have to run `git checkout revert <path to edited file or folder>`. If you want to take an entire folder, for example `docs`, just type `docs/.`. It will take all file
+        8. `git commit -am "restoring folder" && git push`. If you use VScode, you can also use the menu to ordering your file restoration.
+
+        ---
+        ## Contacts
+        - [Discord](https://discord.gg/6DyY779Nbn): Have some ressource for user, bug resolve and quick communication about update and bug.
+        - Mail: lisandra-dev@yahoo.com
+
+        > [!Warning]
+        > All non-English issue are automatically closed.
+        
+  - type: checkboxes
+    attributes:
+      label: Issue validation
+      description: "Thanks to check if your issue is relative to the repository. Any non relative or duplicate issue will be closed."
+      options:
+        - label: "I checked the issue to prevent duplicate"
+          required: true
+        - label: "I checked my configurations files and the documentation"
+          required: true
+  - type: dropdown
+    id: commands
+    attributes:
+      label: Command used
+      description: Select the commands you used to reproduce the bug.
+      multiple: true
+      options:
+        - Upload all notes
+        - Upload unpublished notes
+        - Upload single current active note
+        - Refresh published and upload new notes
+        - Refresh all published notes
+        - Test the connection to the configured repository
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Please copy and paste the version of the plugin you are using.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: "Tell us what you see! And don't forget the error"
+    validations:
+      required: true
+  - type: textarea
+    id: repro-bug
+    attributes:
+      label: How to reproduce ?
+      description: Step to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: false
+  - type: textarea
+    id: minimal-repro
+    attributes:
+      label: Minimal Reproducible Example
+      description: Please provide a minimal reproducible example. You need, at last, one note, with the frontmatter and the content.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Configuration
+      description: |
+        Use the export configuration to paste it here.
+      render: JSON
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. You can open the Obsidian's console with "CTRL+MAJ+I."
+      render: bash session
+  - type: dropdown
+    id: version
+    attributes:
+      label: OS
+      description: Check your OS if your bug is relative to the Obsidian plugin. Skip otherwise.
+      multiple: true
+      options:
+        - IOS
+        - Android
+        - MacOS
+        - Windows
+        - Linux
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Obsidian information
+      description: |
+        Please copy and paste the information about your Obsidian version using the command "show debug info" in the obsidian's commands palette.
+      render: bash session
+    validations:
+      required: true
