@@ -1,0 +1,161 @@
+[package]
+name = "obsidian-export"
+version = "24.11.0"
+authors = ["Nick Groenen <nick@groenen.me>"]
+edition = "2018"
+license = "BSD-2-Clause-Patent"
+readme = "README.md"
+repository = "https://github.com/zoni/obsidian-export"
+documentation = "https://docs.rs/obsidian-export"
+description = """
+Rust library and associated CLI program to export an Obsidian vault to regular Markdown.
+"""
+categories = ["command-line-utilities", "text-processing"]
+keywords = ["markdown", "obsidian"]
+
+[lib]
+name = "obsidian_export"
+path = "src/lib.rs"
+
+[[bin]]
+name = "obsidian-export"
+path = "src/main.rs"
+doc = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eyre = "0.6.12"
+gumdrop = "0.8.1"
+ignore = "0.4.22"
+pathdiff = "0.2.1"
+percent-encoding = "2.3.1"
+pulldown-cmark = "0.12.0"
+pulldown-cmark-to-cmark = "20.0.0"
+rayon = "1.10.0"
+regex = "1.10.5"
+serde_yaml = "0.9.34"
+slug = "0.1.5"
+snafu = "0.8.3"
+unicode-normalization = "0.1.23"
+filetime = "0.2.23"
+
+[dev-dependencies]
+pretty_assertions = "=1.4.0"
+rstest = "=0.24.0"
+tempfile = "=3.10.1"
+walkdir = "=2.5.0"
+
+# The profile that 'cargo dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
+
+# Config for 'dist'
+[workspace.metadata.dist]
+# The preferred dist version to use in CI (Cargo.toml SemVer syntax)
+cargo-dist-version = "0.25.1"
+# CI backends to support
+ci = "github"
+# The installers to generate for each app
+installers = ["shell", "powershell"]
+# Target platforms to build apps for (Rust target-triple syntax)
+targets = [
+	#"aarch64-unknown-linux-gnu", # Not yet supported (2023-12-03)
+	"x86_64-unknown-linux-gnu",
+	#"x86_64-unknown-linux-musl",
+	"aarch64-apple-darwin",
+	"x86_64-apple-darwin",
+	# "aarch64-pc-windows-msvc",, # Not yet supported (2023-12-03)
+	"x86_64-pc-windows-msvc",
+]
+# The archive format to use for non-windows builds (defaults .tar.xz)
+unix-archive = ".tar.xz"
+# The archive format to use for windows builds (defaults .zip)
+windows-archive = ".zip"
+# Which actions to run on pull requests
+pr-run-mode = "plan"
+# Publish jobs to run in CI
+publish-jobs = ["./publish-crate"]
+# Path that installers should place binaries in
+install-path = "CARGO_HOME"
+# Whether to install an updater program
+install-updater = false
+
+[lints.rust]
+nonstandard_style = { level = "warn", priority = -1 }
+rust_2018_idioms = { level = "warn", priority = -1 }
+rust_2024_compatibility = { level = "warn", priority = -1 }
+
+noop_method_call = "warn"
+redundant-lifetimes = "warn"
+unsafe_op_in_unsafe_fn = "warn"
+unused_qualifications = "warn"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+
+# Should probably change these back to warn in the future, but it's a
+# low-priority issue for me at the moment.
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+
+# These lints from the pedantic group are actually too pedantic for my taste:
+match_bool = "allow"
+similar_names = "allow"
+string-add = "allow"
+
+# Enable select lints from the 'restriction' group (which is not meant to be
+# enabled as a whole)
+arithmetic_side_effects = "warn"
+as_conversions = "warn"
+assertions_on_result_states = "warn"
+clone_on_ref_ptr = "warn"
+dbg_macro = "warn"
+default_numeric_fallback = "warn"
+else_if_without_else = "warn"
+empty_enum_variants_with_brackets = "warn"
+error_impl_error = "warn"
+exhaustive_enums = "warn"
+exhaustive_structs = "warn"
+filetype_is_file = "warn"
+float_cmp_const = "warn"
+fn_to_numeric_cast_any = "warn"
+if_then_some_else_none = "warn"
+impl_trait_in_params = "warn"
+indexing_slicing = "warn"
+infinite_loop = "warn"
+integer_division = "warn"
+large_include_file = "warn"
+lossy_float_literal = "warn"
+map_err_ignore = "warn"
+mem_forget = "warn"
+multiple_inherent_impl = "warn"
+multiple_unsafe_ops_per_block = "warn"
+panic_in_result_fn = "warn"
+rc_buffer = "warn"
+rc_mutex = "warn"
+redundant_type_annotations = "warn"
+same_name_method = "warn"
+self_named_module_files = "warn"
+shadow_unrelated = "warn"
+str_to_string = "warn"
+string_add = "warn"
+string_slice = "warn"
+string_to_string = "warn"
+suspicious_xor_used_as_pow = "warn"
+todo = "warn"
+try_err = "warn"
+undocumented_unsafe_blocks = "warn"
+unneeded_field_pattern = "warn"
+unseparated_literal_suffix = "warn"
+vec_init_then_push = "warn"
+#expect_used = "warn"
+#missing_docs_in_private_items = "warn"
+#missing_inline_in_public_items = "warn"
+#pathbuf_init_then_push = "warn"  # Rust 1.81.0+
+#renamed_function_params = "warn" # Rust 1.80.0+
+#unwrap_in_result = "warn"
+#unwrap_used = "warn"
+#wildcard_enum_match_arm = "warn"

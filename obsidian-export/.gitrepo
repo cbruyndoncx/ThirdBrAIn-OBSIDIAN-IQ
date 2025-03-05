@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/zoni/obsidian-export.git
+	branch = main
+	commit = a65b4740d6b5554db0d2028e15675a9e56eb5745
+	parent = 05e8bbc7b1e704be2063373a92742581d99709ea
+	method = merge
+	cmdver = 0.4.9
