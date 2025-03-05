@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/narphorium/mcp-memex.git
+	branch = main
+	commit = abf68c75a72dcae41659e78509fefc467b129d01
+	parent = 60b5c821eab48db4abc206e264071f6530224ca5
+	method = merge
+	cmdver = 0.4.9
