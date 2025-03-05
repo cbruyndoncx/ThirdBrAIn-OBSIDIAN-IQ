@@ -46,3 +46,4 @@ $ git subrepo clone https://github.com/Enveloppe/obsidian-enveloppe.git
 
 $ git subrepo clone https://github.com/denonrailz/obsidian-autogen.git
 - Obsidian and AutoGen agentic framework cooperation
+Subrepo 'https://github.com/zoni/obsidian-export.git' (main) cloned into 'obsidian-export'.
