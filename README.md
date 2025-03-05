@@ -34,7 +34,17 @@ This repository contains the following submodules:
 - **Languages Used**: Python, Jupyter Notebook, Shell
 - **Number of Releases**: 0
 
-# OBSIDIAN
+## Manually added
+$ git subrepo clone https://github.com/btderr02/Obsidian-Daily-Notes-Rainmeter.git
+- desktop widget to show individual note on windows 11 using Rainmeter app
 
-This repository contains the following submodules:
+$ git subrepo clone https://github.com/olafgeibig/obsidian-boy.git
+- 
+
+$ git subrepo clone https://github.com/Enveloppe/obsidian-enveloppe.git
+- Part of publishing system to Quartz website, used by ThirdBrAIn.tech website
+
+## Error cloning with subrepo - no ln-remote sym link missing
+$ git subrepo clone https:/github.com/denonrailz/obsidian-autogen.git
+git-subrepo: Command failed: 'git ls-remote --symref https:/github.com/denonrailz/obsidian-autogen.git'.
 
