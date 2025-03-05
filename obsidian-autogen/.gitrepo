@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/denonrailz/obsidian-autogen.git
+	branch = master
+	commit = 7dd65761352734cd0ace703c15f6c05c8b0e8efb
+	parent = cbfc5a09d4e3695b31dfa22720272d3f8161cdca
+	method = merge
+	cmdver = 0.4.9

@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "0be653439e650424",
+    "type": "split",
+    "children": [
+      {
+        "id": "a26346aaa1b1863c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0644ca6ba572dac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "results/v.0.3-omega/1698931796.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27239b0a9fee3920",
+    "type": "split",
+    "children": [
+      {
+        "id": "77e451ee3fb525a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f818c41f75c0011",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3319a0876f11e1c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91a9412ff69c8ce8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf92c00ca5a1d224",
+    "type": "split",
+    "children": [
+      {
+        "id": "c79fc4157a5a6694",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2307397160e0c1a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "results/v.0.3-omega/1698931796.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3ee85f3abb97733",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "results/v.0.3-omega/1698931796.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9d324282b8e5e1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "88622b2de2b2a521",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "results/v.0.3-omega/1698931796.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e0644ca6ba572dac",
+  "lastOpenFiles": [
+    "results/0.2-case02/1698759981.md",
+    "knowledges/yogi.md",
+    "knowledges/web_design_consultant.md",
+    "knowledges/web_browser.md",
+    "knowledges/virtual_doctor.md",
+    "knowledges/uxui_developer.md",
+    "knowledges/unconstrained_ai_model_dan.md",
+    "knowledges/travel_guide.md",
+    "knowledges/title_generator_for_written_pieces.md",
+    "knowledges/time_travel_guide.md",
+    "knowledges/tic-tac-toe_game.md",
+    "knowledges/text_based_adventure_game.md",
+    "knowledges/technology_transferer.md",
+    "knowledges/tech_writer.md",
+    "knowledges/tech_reviewer:.md",
+    "knowledges/tea-taster.md",
+    "knowledges/talent_coach.md",
+    "knowledges/synonym_finder.md",
+    "knowledges/svg_designer.md",
+    "knowledges/storyteller.md",
+    "knowledges/statistician.md",
+    "knowledges/startup_tech_lawyer.md",
+    "knowledges/startup_idea_generator.md",
+    "knowledges/stand-up_comedian.md",
+    "knowledges/stackoverflow_post.md",
+    "knowledges/sql_terminal.md",
+    "knowledges/result",
+    "knowledges/prompts.txt",
+    "knowledges/split.py",
+    "Wellcome dashboard.canvas",
+    "Logs/v.0.3-omega",
+    "Logs/0.2-case02",
+    "Logs/0.1",
+    "assistant.png"
+  ]
+}
