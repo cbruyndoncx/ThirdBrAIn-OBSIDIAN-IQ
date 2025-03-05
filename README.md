@@ -55,3 +55,4 @@ This repository contains the following submodules:
 Subrepo 'https://github.com/cyanheads/obsidian-mcp-server.git' (main) cloned into 'obsidian-mcp-server'.
 Subrepo 'https://github.com/StevenStavrakis/obsidian-mcp.git' (main) cloned into 'obsidian-mcp'.
 Subrepo 'https://github.com/jacksteamdev/obsidian-mcp-tools.git' (main) cloned into 'obsidian-mcp-tools'.
+Subrepo 'https://github.com/Sunwood-ai-labs/obsidian-mcp.git' (main) cloned into 'sunwoods-obsidian-mcp'.
