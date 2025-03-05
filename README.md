@@ -44,7 +44,5 @@ $ git subrepo clone https://github.com/olafgeibig/obsidian-boy.git
 $ git subrepo clone https://github.com/Enveloppe/obsidian-enveloppe.git
 - Part of publishing system to Quartz website, used by ThirdBrAIn.tech website
 
-## Error cloning with subrepo - no ln-remote sym link missing
-$ git subrepo clone https:/github.com/denonrailz/obsidian-autogen.git
-git-subrepo: Command failed: 'git ls-remote --symref https:/github.com/denonrailz/obsidian-autogen.git'.
-
+$ git subrepo clone https://github.com/denonrailz/obsidian-autogen.git
+- Obsidian and AutoGen agentic framework cooperation
