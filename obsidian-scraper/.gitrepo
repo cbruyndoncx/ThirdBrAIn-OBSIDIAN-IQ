@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/AlexandrosLiaskos/obsidian-scraper.git
+	branch = main
+	commit = a57a371b277f3846d0c56db64b570d0800a94ec1
+	parent = 308fa8873fe0a1d444febfc7ba8ef5006c9ede98
+	method = merge
+	cmdver = 0.4.9
