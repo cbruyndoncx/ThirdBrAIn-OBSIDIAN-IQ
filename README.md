@@ -48,3 +48,7 @@ $ git subrepo clone https://github.com/denonrailz/obsidian-autogen.git
 - Obsidian and AutoGen agentic framework cooperation
 Subrepo 'https://github.com/zoni/obsidian-export.git' (main) cloned into 'obsidian-export'.
 Subrepo 'https://github.com/AlexandrosLiaskos/obsidian-scraper.git' (main) cloned into 'obsidian-scraper'.
+# OBSIDIAN
+
+This repository contains the following submodules:
+
