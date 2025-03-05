@@ -53,3 +53,4 @@ Subrepo 'https://github.com/AlexandrosLiaskos/obsidian-scraper.git' (main) clone
 This repository contains the following submodules:
 
 Subrepo 'https://github.com/cyanheads/obsidian-mcp-server.git' (main) cloned into 'obsidian-mcp-server'.
+Subrepo 'https://github.com/StevenStavrakis/obsidian-mcp.git' (main) cloned into 'obsidian-mcp'.
