@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/olafgeibig/obsidian-boy.git
+	branch = main
+	commit = f86007a9407bceca93e2c4224b1249bc3e253be4
+	parent = bb3ad20bc7f989a2014226d75f6cc4b58bd80bda
+	method = merge
+	cmdver = 0.4.9

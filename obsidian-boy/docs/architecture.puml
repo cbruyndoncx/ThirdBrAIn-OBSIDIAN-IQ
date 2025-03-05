@@ -1,0 +1,21 @@
+@startuml
+title: Processing Flow
+start
+:Parse a daily note into entries;
+:Fill the missing fields of the entries.
+Do research when needed.;
+:Create a note in the temp dir for each entry;
+:Choose a note template;
+:Write the note according to the template. 
+Do research when needed.;
+:Tag the daily note according to existing tags;
+repeat :Human reviews a note;
+  switch (human review is)
+  case (approved)
+    :Copy note to note dir;
+  case (rejected)
+    :Take the human feedback;
+    :Send to the note writer agent for correction;
+  endswitch  
+repeat while (new notes?) is (yes)
+@enduml
