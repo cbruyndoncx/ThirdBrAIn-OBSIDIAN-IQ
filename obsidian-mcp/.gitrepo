@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/StevenStavrakis/obsidian-mcp.git
+	branch = main
+	commit = 4b56cad4558c464f62059e93385d0cf68dce6db7
+	parent = c0449c742705e3ead405cda21fbd1682fc7b9d9e
+	method = merge
+	cmdver = 0.4.9
